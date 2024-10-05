@@ -1,0 +1,20 @@
+{
+  "name": "mixed-reset",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css",
+    "reset",
+    "css reset",
+    "normalize"
+  ],
+  "author": "Jiro Geomydas",
+  "homepage": "https://github.com/geomydas/mixed-reset#readme",
+  "bugs": {
+    "url": "https://github.com/geomydas/mixed-reset/issues"
+  },
+  "license": "MIT",
+  "description": "A combined CSS reset based on Andy Bell's CSS reset, Josh Comeau's CSS reset and TailwindCSS' preflight"
+}
