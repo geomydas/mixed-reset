@@ -49,7 +49,7 @@ So that I can better manage my CSS reset and so that I have the best of both wor
 
    ```
    <!-- HTML -->
-   <link rel="stylesheet" href="/mixed-reset/mixed-reset.min.css" >
+   <link rel="stylesheet" href="/mixed-reset/mixed-reset.min.css" />
    ```
 
    ```
@@ -58,3 +58,22 @@ So that I can better manage my CSS reset and so that I have the best of both wor
    ```
 
 3. Et voila!
+
+### Option 3 (CDN)
+
+1. Link or import the UNPKG link inside the HTML or CSS
+   ```
+   <!-- HTML -->
+   <link rel="stylesheet" href="https://unpkg.com/mixed-reset/mixed-reset.min.css" />
+   ```
+   ```
+   /* CSS */
+   @import "https://unpkg.com/mixed-reset/mixed-reset.min.css";
+   ```
+2. Et viola!
+
+## Links
+
+- Browse UNPKG: [https://unpkg.com/browse/mixed-reset/](https://unpkg.com/browse/mixed-reset/)
+- Github repo: [https://github.com/geomydas/mixed-reset](https://github.com/geomydas/mixed-reset)
+- NPM page: [https://www.npmjs.com/package/mixed-reset](https://www.npmjs.com/package/mixed-reset)
