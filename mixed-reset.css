@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-*::after,
-*::before {
-  content: "";
-}
-
 * {
   margin: 0;
   padding: 0;
