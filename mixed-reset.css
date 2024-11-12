@@ -6,6 +6,8 @@
 
 * {
   margin: 0;
+  padding: 0;
+  font: inherit;
 }
 
 html {
@@ -73,33 +75,6 @@ label {
 a:not([class]) {
   text-decoration-skip-ink: auto;
   color: currentColor;
-}
-
-ul,
-ol {
-  padding: 0;
-}
-
-ul[role="list"],
-ol[role="list"] {
-  list-style: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
-textarea:not([rows]) {
-  min-height: 10em;
 }
 
 :target {
